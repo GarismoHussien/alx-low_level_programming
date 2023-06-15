@@ -1,13 +1,9 @@
-C - Preprocessor
+# ALX School - 0x00-hello_world
 
-TASKS
+Compiling very simple programs with gcc. Learning the steps of compilation.
 
-0. Object-like Macro
+## New commands / functions used:
 
-1. Pi
+``gcc, printf, puts, putchar``
 
-2. File name
-
-3. Function-like macro
-
-4. SUM
+## Helpful Links
