@@ -7,7 +7,8 @@
 
 
 	int main(void)
-	{
+//descption i use for main
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
