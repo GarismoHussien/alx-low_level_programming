@@ -2,7 +2,7 @@
 /**
  * main - print _putchar
 *written by me
-Return: 0
+*Return: 0
  */
 int main(void)
 {
