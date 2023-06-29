@@ -1,21 +1,21 @@
-#include"main.h"
+#include "main.h"
 /**
-*reverse_array-reversearrayofintegers
-*@a:array
-*@n:numberofelementsofarray
-*
-*Return:void
-*/
-voidreverse_array(int*a,intn)
+ * reverse_array - reverse array of integers
+ * @a: array
+ * @n: number of elements of array
+ *
+ * Return: void
+ */
+void reverse_array(int *a, int n)
 {
-inti;
-intt;
+	int i;
+	int t;
 
-for(i=0;i<n--;i++)
-{
-t=a[i];
-a[i]=a[n];
-a[n]=t;
-}
+	for (i = 0; i < n--; i++)
+	{
+		t = a[i];
+		a[i] = a[n];
+		a[n] = t;
+	}
 }
 
