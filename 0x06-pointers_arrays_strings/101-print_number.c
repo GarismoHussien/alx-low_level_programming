@@ -1,27 +1,26 @@
-#include"main.h"
+#include "main.h"
 
 /**
-*print_number-printnumberschars
-*@n:integerparams
-*Return:0
-*/
+ * print_number - print numbers chars
+ * @n: integer params
+ * Return: 0
+ */
 
-voidprint_number(intn)
+void print_number(int n)
 {
-unsignedintn1;
+	unsigned int n1;
 
-n1=n;
+	n1 = n;
 
-if(n<0)
-{
-_putchar('-');
-n1=-n;
+	if (n < 0)
+	{
+		_putchar('-');
+		n1 = -n;
+	}
+
+	if (n1 / 10 != 0)
+	{
+		print_number(n1 / 10);
+	}
+	_putchar((n1 % 10) + '0');
 }
-
-if(n1/10!=0)
-{
-print_number(n1/10);
-}
-_putchar((n1%10)+'0');
-}
-
