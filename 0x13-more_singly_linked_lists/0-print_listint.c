@@ -1,11 +1,14 @@
 #include "lists.h"
 
-/*
- * print_listint t
- *  linked list of type listint_t to print
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
  *
- * Return: # of nodes
- */
+ * Description: singly linked list node structure
+ **
+ *
+*/
 size_t print_listint(const listint_t *h)
 {
 size_t num = 0;
